@@ -1,0 +1,21 @@
+%grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px;
+}
+
+%flexDiv {
+    background-color: rgb(29, 64, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+%hoverDiv {
+    background-color: peru;
+    transition: background-color .5s
+}
